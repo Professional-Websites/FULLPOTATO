@@ -1,0 +1,137 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+.cardcol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardcol p{
+    width: 70%;
+    margin-left: -3rem;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 2px;
+    
+}
+.frame{
+    width: 686px;
+    margin: 0 -7rem;
+}
+.fryer h2{
+    color: cornsilk;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 4px;
+}
+.fryer p{
+    text-align: center;
+    font-size: 17px;
+
+}
+@media (max-width: 1024px){
+    .card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .frame{
+        width: 686px;
+        margin: 0;
+        margin-left: 3rem;
+    }
+    .cardcol p{
+        width: 40%;
+        margin-left: 0;
+    }
+}
+@media (max-width: 767px){
+    .card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .frame{
+        width: 686px;
+        margin: 0;
+        margin-left: 3rem;
+    }
+}
+.previewrow{
+    display: flex;
+    justify-content: center;
+    
+}
+.preview .previewrow img{
+    width: 200px;
+    margin: 0 40px;
+}
+.preview h2{
+    font-size: 3rem;
+    color: white;
+    font-weight: 100;
+    
+}
+.preview p{
+    padding: 20px 10px;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 2rem;
+}
+.preview h2 span{
+    color: cornsilk;
+    font-weight: 900;
+    letter-spacing: 7px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media (max-width: 1024px){
+    .previewrow{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .preview .previewrow img{
+        width: 200px;
+        margin: 20px 40px;
+    }
+}
+@media (max-width: 968px){
+    .preview h2{
+        font-size: 1.5rem;
+        color: white;
+        font-weight: 100;
+    }
+    .preview p{
+        padding: 10px 0px;
+        letter-spacing: 1px;
+        text-align: center;
+        line-height: 20px;
+        font-size: 1rem;
+    }
+    .preview h2 span{
+        color: cornsilk;
+        font-weight: 900;
+        letter-spacing: 4px;
+    }
+
+}
+.grease h2{
+    text-align: center;
+    color: cornsilk;
+    letter-spacing: 4px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.grease li{
+    margin: 50px 40px;
+    letter-spacing: 1px;
+}
